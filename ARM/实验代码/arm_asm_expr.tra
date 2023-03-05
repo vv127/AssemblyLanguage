@@ -1,0 +1,19 @@
+*** Creating Trace Output File 'arm_asm_expr.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"experiment3.o"'
+### ADS-LD Command completed:
+--cpu ARM966E-S "experiment3.o" 
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x00010000 --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\arm_asm_expr.map" -o arm_asm_expr.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'arm_asm_expr.axf'
+### ADS-LD Command File: 'arm_asm_expr.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'arm_asm_expr.lnp', Handle=0x00000DB4
+### Writing '.lnp' file
+### ADS-LD Command file 'arm_asm_expr.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
